@@ -1,4 +1,4 @@
-# LangChain.js Talk Given by Damian Montero at the September 2023 FloridaJS Meetup
+# LangChain.js Talk Given by Damian Montero at the October 2023 FloridaJS Meetup
 
 to run it simply fork this repo and edit the .env_sample and make it .env and fill in the values<br />
 then run
