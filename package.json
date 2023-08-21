@@ -2,9 +2,9 @@
   "name": "",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/app.js",
   "type": "module",
-  "license": "AGPL-version-3.0",
+  "license": "MIT",
   "private": false,
   "engines": {
     "node": ">= 14.0.0",
@@ -26,7 +26,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node ./dist/app.js",
-    "dev": "ts-node --esm ./src/app.ts"
+    "dev": "ts-node --esm ./src/app.ts",
+    "openai":  "ts-node --esm ./src/openai.ts"
   },
   "dependencies": {
     "@types/node": "^20.5.0",
