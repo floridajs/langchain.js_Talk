@@ -1,9 +1,9 @@
 {
-  "name": "",
+  "name": "langchain_js_Talk",
   "version": "1.0.0",
-  "description": "",
+  "description": "Talk given by Damian Montero",
   "main": "dist/app.js",
-  "type": "module",
+"type": "module",
   "license": "MIT",
   "private": false,
   "engines": {
@@ -13,16 +13,16 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "github.com/floridajs/langchain.js_Talk.git"
   },
   "bugs": "",
-  "keywords": [],
+  "keywords": ["ai","talk","floridajs","langchain","openai","serpapi"],
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Damian Montero",
+    "email": "damian@bocacode.com",
+    "url": "https://damianmontero.com"
   },
-  "contributors": [],
+  "contributors": ["thedamian"],
   "scripts": {
     "build": "tsc",
     "start": "node ./dist/app.js",
