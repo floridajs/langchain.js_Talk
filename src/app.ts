@@ -16,9 +16,10 @@
   //Load environment variables (populate process.env from .env file)
   import * as dotenv from "dotenv";
   dotenv.config();
+  let OPENAI_API_KEY = process.env.OPENAI_API_KEY;
   //Instantiante the OpenAI model 
   //Pass the "temperature" parameter which controls the RANDOMNESS of the model's output. A lower temperature will result in more predictable output, while a higher temperature will result in more random output. The temperature parameter is set between 0 and 1, with 0 being the most predictable and 1 being the most random
-  const model = new OpenAI({ temperature: 0.9 });
+  const model = new OpenAI({ openAIApiKey: OPENAI_API_KEY, temperature: 0.9 });
 
 
 
