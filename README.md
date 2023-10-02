@@ -13,7 +13,7 @@ Big shout out to LangChainers on their Feb 26th 2023 article
 https://langchainers.hashnode.dev/getting-started-with-langchainjs
 
 And the most impressive explanation video (but it's in python) 
-https://learn.deeplearning.ai/langchain/lesson/4/chains
+https://learn.deeplearning.ai/langchain
 
 With more details available on the official 
 https://js.langchain.com/docs/get_started/installation
